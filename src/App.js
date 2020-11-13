@@ -25,8 +25,8 @@ const App = () => {
 
         <Navbar light expand="md">
           <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
+          <Collapse className="text-center" isOpen={isOpen} navbar>
+            <Nav className="mr-auto ml-auto " navbar>
               <NavItem>
                 <a className="myNav" href="#about">About Us</a>
               </NavItem>
