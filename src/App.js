@@ -21,7 +21,7 @@ const App = () => {
   return (
     <>
 
-      <nav>
+      <nav id='myNav'>
 
         <Navbar light expand="md">
           <NavbarToggler onClick={toggle} />
