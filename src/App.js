@@ -28,11 +28,15 @@ const App = () => {
           <Collapse className="text-center" isOpen={isOpen} navbar>
             <Nav className="mr-auto ml-auto " navbar>
               <NavItem>
-                <a className="myNav" href="#about">About Us</a>
+                <a className="myNav" href="#home">Home</a>
               </NavItem>
               {" "}
               <NavItem>
-                <a className="myNav" href="#gallery">Gallery</a>
+                <a className="myNav" href="#band">Band</a>
+              </NavItem>
+              {" "}
+              <NavItem>
+                <a className="myNav" href="#videos">Videos</a>
               </NavItem>
               {" "}
               <NavItem>
