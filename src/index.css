@@ -1,8 +1,6 @@
 body {
   background-color: black !important;
-  text-decoration: none !important;
-  font-weight: lighter !important;
-  font-family: Arvo !important;
+  font-family: 'Source Sans Pro' !important;
   color: white !important;
 }
 
@@ -21,6 +19,24 @@ nav {
 
 .blue, .navbar-toggler {
   background-color: #104c91 !important;
+}
+
+h1 {
+  font-family: Abel;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 1em;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 400 !important;
+  font-style: normal !important;
+  font-size: 16px !important;
+  letter-spacing: .4px !important;
+  line-height: 1.75em !important;
 }
 
 .bandPhoto {

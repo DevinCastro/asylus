@@ -15,7 +15,7 @@ const Home = () => {
         <Container>
           <a name='home'></a>
           <div className="text-center asylus">
-            <h1>Asylus</h1>
+            <h1>ASYLUS</h1>
 
             <img className="bandPhoto" src={bandPhoto} alt="bandPhoto" />
 
@@ -62,7 +62,7 @@ const Home = () => {
             <Jumbotron id="videos">
 
 
-              <h1 className="mvs text-center">Music Videos</h1>
+              <h1 className="mvs text-center">MUSIC VIDEOS</h1>
 
               <Row>
                 <Col lg='6'>

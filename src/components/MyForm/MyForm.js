@@ -32,9 +32,11 @@ export default class MyForm extends React.Component {
         <FormGroup>
         <Label>Message:</Label>
         <Input type="textarea" name="message" />
-
+        <br/>
+        <div className="text-center">
         {status === "SUCCESS" ? <alert>Thanks!</alert> : <Button className="button1">Submit</Button>}
         {status === "ERROR" && <alert>Ooops! There was an error. Please fill out all fields.</alert>}
+        </div>
         </FormGroup>
       </Form>
     );
